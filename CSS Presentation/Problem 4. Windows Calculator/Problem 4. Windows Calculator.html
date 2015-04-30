@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	<title>Problem 4. Windows Calculator</title>
+	<link rel="stylesheet" href="Styles/Problem 4. Windows Calculator.css">
+</head>
+<body>
+	<section id="calculator">
+		<section id="main_line">
+			<form action="#" method="get" class="main_line_form">
+				<button><span class="underline">V</span>iew</button>
+				<button><span class="underline">E</span>dit</button>
+				<button><span class="underline">H</span>elp</button>
+			</form>
+		</section>
+		<section id="body">
+
+			<form action="#" id="display_form" class="round_edge">
+				<input type="text" value="8854455" id="display" class="right_align">
+			</form>
+
+			<div id="binary" class="round_edge" >
+				<table>
+					<tr class="row1">
+						<td>0000</td><td>0000</td><td>0000</td><td>0000</td><td>0000</td><td>0000</td><td>0000</td><td>0000</td>
+					</tr>
+					<tr class="row2">
+						<td class="left_align">63</td><td></td><td></td><td></td><td class="left_align">47</td><td></td><td></td><td class="right_align">32</td>
+					</tr>
+					<tr class="row1">
+						<td>0000</td><td>0000</td><td>0000</td><td>0000</td><td>0000</td><td>0000</td><td>0000</td><td>0000</td>
+					</tr>
+					<tr class="row2">
+						<td class="left_align">31</td><td></td><td></td><td></td><td class="left_align">15</td><td></td><td></td><td class="right_align">0</td>
+					</tr>
+				</table>
+			</div>
+
+			<div id="buttons">
+				<table>
+					<tr>
+						<td rowspan="3" colspan="2">
+							<form action="#" class="round_edge">
+								<ul>
+									<li><input type="radio" id="hex" name="system"><label for="hex">Hex</label></li>
+									<li><input type="radio" id="dec" name="system"><label for="dec">Dec</label></li>
+									<li><input type="radio" id="oct" name="system"><label for="oct">Oct</label></li>
+									<li><input type="radio" id="bin" name="system"><label for="bin">Bin</label></li>
+								</ul>
+							</form>
+						</td>
+						<td><button></button></td>
+						<td><button class="type1">Mod</button></td>
+						<td><button>A</button></td>
+						<td><button class="type3">MC</button></td>
+						<td><button class="type3">MR</button></td>
+						<td><button class="type3">MS</button></td>
+						<td><button class="type3">M+</button></td>
+						<td><button class="type3">M-</button></td>
+					</tr>
+					<tr>						
+						<td><button class="type1">(</button></td>
+						<td><button class="type1">)</button></td>
+						<td><button>B</button></td>
+						<td><button class="type1">←</button></td>
+						<td><button class="type1">CE</button></td>
+						<td><button class="type1">C</button></td>
+						<td><button class="type1">±</button></td>
+						<td><button>√</button></td>
+						</td>
+					</tr>
+					<tr>
+						<td><button class="type1">RoL</button></td>
+						<td><button class="type1">RoR</button></td>
+						<td><button>C</button></td>
+						<td><button class="type2">7</button></td>
+						<td><button class="type2">8</button></td>
+						<td><button class="type2">9</button></td>
+						<td><button class="type1">/</button></td>
+						<td><button>%</button></td>
+					</tr>
+					<tr>
+						<td rowspan="3" colspan="2">
+							<form action="#" class="round_edge">
+								<ul>
+									<li><input type="radio" id="qword" name="system"><label for="qword">Qword</label></li>
+									<li><input type="radio" id="dword" name="system"><label for="dword">Dword</label></li>
+									<li><input type="radio" id="word" name="system"><label for="word">Word</label></li>
+									<li><input type="radio" id="byte" name="system"><label for="byte">Byte</label></li>
+								</ul>
+							</form>
+						</td>
+						<td><button class="type1">Or</button></td>
+						<td><button class="type1">Xor</button></td>
+						<td><button>D</button></td>
+						<td><button class="type2">4</button></td>
+						<td><button class="type2">5</button></td>
+						<td><button class="type2">6</button></td>
+						<td><button class="type1">*</button></td>
+						<td><button>1/x</button></td>
+					</tr>
+					<tr>
+						<td><button class="type1">Lsh</button></td>
+						<td><button class="type1">Rsh</button></td>
+						<td><button>E</button></td>
+						<td><button class="type2">1</button></td>
+						<td><button class="type2">2</button></td>
+						<td><button class="type2">3</button></td>
+						<td><button class="type1">-</button></td>
+						<td rowspan="2"><button class="type1" id="equals">=</button></td>
+					</tr>
+					<tr>
+						<td><button class="type1">Not</button></td>
+						<td><button class="type1">And</button></td>
+						<td><button>F</button></td>
+						<td colspan="2"><button class="type2" id="zero">0</button></td>
+						<td><button>.</button></td>
+						<td><button class="type1">+</button></td>
+					</tr>
+				</table>
+			</div>
+		</section>
+	</section>
+</body>
+</html>

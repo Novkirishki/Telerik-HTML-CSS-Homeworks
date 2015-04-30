@@ -1,0 +1,66 @@
+body table {
+	border-collapse: collapse;
+}
+
+	body table thead {
+		background: -webkit-linear-gradient(rgb(84, 183, 5), rgb(81, 158, 18)); /* For Safari 5.1 to 6.0 */
+	    background: -o-linear-gradient(rgb(84, 183, 5), rgb(81, 158, 18)); /* For Opera 11.1 to 12.0 */
+	    background: -moz-linear-gradient(rgb(84, 183, 5), rgb(81, 158, 18)); /* For Firefox 3.6 to 15 */
+	    background: linear-gradient(rgb(84, 183, 5), rgb(81, 158, 18)); /* Standard syntax */
+		color: white;
+		text-align: left;
+		border-bottom: 1px solid gray;
+	}
+
+	body table tbody {
+		border-bottom: 1px solid gray;
+	}
+
+		body table tbody tr:nth-of-type(2n) {
+			background-color: rgb(237, 236, 218);
+		}
+
+		body table tbody .germany:before {
+			content: url('../Images/rsz_germany.png');
+			margin: 5px;
+			vertical-align: -2px;
+		}
+
+		body table tbody .mexico:before {
+			content: url('../Images/rsz_mexico.png');
+			margin: 5px;
+			vertical-align: -2px;
+		}
+
+		body table tbody .uk:before {
+			content: url('../Images/rsz_uk.png');
+			margin: 5px;
+			vertical-align: -2px;
+		}
+
+	body table th, td {
+		padding: 6px;
+		font-weight: normal;
+		font-family: verdana;
+		font-size: 12px;
+	}
+
+	body table colgroup .first_col {
+		width: 160px;
+		bor
+	}
+
+	body table colgroup .second_col {
+		width: 130px;
+		border-left: 1px solid gray;
+	}
+
+	body table colgroup .third_col {
+		width: 140px;
+		border-left: 1px solid gray;
+	}
+
+	body table colgroup .fourth_col {
+		width: 90px;
+		border-left: 1px solid gray;
+	}

@@ -1,0 +1,44 @@
+body {
+	background-color: gray;
+}
+
+	body h1, body footer {
+		text-align: center;
+	}
+
+	body header h1 {
+		color: lightyellow;
+	}
+
+	body header nav ul {
+		text-align: center;
+		list-style: none;
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+		body header nav ul li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		body header nav ul .current {
+			background-color: lightgray;
+		}
+
+		body header nav ul li:last-of-type {
+			text-decoration: underline;
+		}
+
+	body section article header h1, body section article footer {
+		text-align: left;
+	}
+
+	body section article footer {
+		font-size: 12px;
+	}
+
+	body footer a {
+		text-decoration: none;
+		color: black;
+	}

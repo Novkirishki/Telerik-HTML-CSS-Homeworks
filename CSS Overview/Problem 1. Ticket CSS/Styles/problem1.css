@@ -1,0 +1,46 @@
+body {
+	background-color: gray;
+	color: lightgray;
+	font-family: arial;
+	font-size: 12px;
+}
+
+	body table th {
+		font-weight: normal;
+		text-align: left;
+		font-size: 16px;
+	}
+
+	body table th, body table td {
+		padding: 8px;
+	}
+
+	body table a {
+		text-decoration: none;
+	}
+
+	body table .left {
+		color: white;
+		font-style: italic;
+		vertical-align: top;
+	}
+
+	body table .yellow_text {
+		color: lightyellow;
+	}
+
+	body table .orange_text {
+		color: orange;
+	}
+
+	body table .red_text {
+		color: red;
+		font-weight: bold;
+	}
+
+
+
+	body table #name:before {
+		content: url('../Images/rsz_dot.png');
+		margin: 2px;
+	}
