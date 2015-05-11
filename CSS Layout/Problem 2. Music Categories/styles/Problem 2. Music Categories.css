@@ -1,0 +1,59 @@
+body, div, article, header, h1, section {
+	margin: 0;
+	padding: 0;
+}
+
+body > div {
+	background-color: #EEEEEE;
+	width: 40%;
+	border-radius: 10px;
+	padding: 15px;
+}
+
+body div section header h1 {
+	font-family: Verdana;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+body div section article {
+	padding: 15px;
+	border: 1px solid gray;
+	background-color: white;
+	margin: 35px 0px 15px;
+	position: relative;
+}
+
+	body div section article:after {
+		content: "";
+		display: block;
+		clear: both;
+		height: 0;
+	}
+
+	body div section article img {
+		width: 150px;
+		height: 100px;
+		float: left;
+		margin-right: 15px;
+		border: 1px solid gray;
+	}
+
+	body div section article span {
+		display: block;
+	}
+	
+	body div section article form {
+		position: absolute;
+		bottom: 15px;
+		right: 15px;
+	}
+
+	body div section article form input.button {
+		width: 70px;
+		height: 25px;
+		background-image: url("../images/button.png");
+		background-size: 100% 100%;
+		border: none;
+		color: white;
+	}

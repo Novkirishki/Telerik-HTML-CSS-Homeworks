@@ -1,0 +1,36 @@
+body,
+header,
+nav,
+ul,
+li,
+a,
+section,
+img {
+  margin: 0;
+  padding: 0;
+}
+:target {
+  display: inline-block !important;
+}
+body header nav {
+  padding: 20px;
+}
+body header nav ul {
+  list-style-type: none;
+}
+body header nav ul li {
+  display: inline-block;
+  margin: 5px;
+}
+body header nav ul li a img {
+  width: 200px;
+  height: 150px;
+}
+body section {
+  padding: 40px;
+}
+body section img.showed {
+  display: none;
+  width: 400px;
+  height: 300px;
+}

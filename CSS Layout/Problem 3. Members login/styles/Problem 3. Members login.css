@@ -1,0 +1,73 @@
+body, header, form, article {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #3B3B3B;
+}
+
+	body > header {
+		background: -webkit-linear-gradient(#3C3835, #2F2F2F); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#3C3835, #2F2F2F); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#3C3835, #2F2F2F); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#3C3835, #2F2F2F); /* Standard syntax */
+	}
+
+		body header:after {
+			content: "";
+			display: block;
+			height: 0;
+			clear: both;
+		}
+
+		body header img {
+			margin: 10px;
+			width: 50px;
+			height: 50px;
+			float: left;
+		}
+
+		body header form {
+			display: inline-block;
+			color: white;
+			margin-top: 15px;
+			font-size: 25px;
+		}
+
+			body header form label {
+				vertical-align: middle;
+			}
+
+			body header form input {
+				margin-left: 15px;
+			}
+
+			body header form input.go {
+				background-image: url("../images/go.png");
+				background-size: 100% 100%;
+				border: none;
+				background-color: transparent;
+				width: 70px;
+				height: 35px;
+				color: white;
+				cursor: pointer;
+			}
+
+	body article {
+		margin: 10px;
+		color: lightgray;
+		font-family: "Lucida Console", Monaco, monospace;
+		font-size: 13px;
+	}
+
+		body article header h1 {
+			color: #F2DA52;
+			font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+			font-size: 25px;
+		}
+
+		body article q {
+			color: white;
+		}
+
